@@ -8,21 +8,21 @@
 
 // Bday
 
-// var bday = prompt("What is your birthday?");
+var bday = prompt("What is your birthday?");
 var isNumber = function(n) {
  return !isNaN(parseFloat(n)) && isFinite(n);
 };
-// var month = bday.substring(0,2);
-// var day = bday.substring(3,5);
-// var year = bday.substring(6,8);
+var month = bday.substring(0,2)
+var day = bday.substring(3,5)
+var year = bday.substring(6,8)
 
-// if ((bday.charAt(2,5)==="/" && isNumber(month, day, year)) && bday.length < 9) {
-// 	console.log("Your birthday is valid"); 
-// }
+if ((bday.charAt(2,5)==="/" && isNumber(month, day, year)) && bday.length < 9) {
+	console.log("Your birthday is valid"); 
+}
 
-// else {
-// 	console.log("Your birthday is not valid");
-// }
+else {
+	console.log("Your birthday is not valid");
+}
 
 
 // Class Example
@@ -76,15 +76,15 @@ var isNumber = function(n) {
 
 // Married
 
-var married = prompt("Are you married?");
+// var married = prompt("Are you married?");
 
-if (married ==="yes" || married ==="no"){
-	console.log ("Thank you");
-}
+// if (married ==="yes" || married ==="no"){
+// 	console.log ("Thank you");
+// }
 
-else {
-	console.log("Please answer yes or no only.")
-}
+// else {
+// 	console.log("Please answer yes or no only.")
+// }
 
 
 
