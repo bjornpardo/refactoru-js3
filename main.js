@@ -64,9 +64,27 @@ var isNumber = function(n) {
 
 // State Abbreviation
 
-var state = prompt("What is your state?");
+// var state = prompt("What is your state?");
 
+// if (state.length===2 && (state===state.toUpperCase())){
+// 	console.log ("This is a valid state");
+// }
 
+// else {
+// 	console.log("Please enter a valid 2 character state code in all caps.")
+// }
+
+// Married
+
+var married = prompt("Are you married?");
+
+if (married ==="yes" || married ==="no"){
+	console.log ("Thank you");
+}
+
+else {
+	console.log("Please answer yes or no only.")
+}
 
 
 
